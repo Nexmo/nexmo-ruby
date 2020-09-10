@@ -4,6 +4,9 @@
 
 <img src="https://developer.nexmo.com/assets/images/Vonage_Nexmo.svg" height="48px" alt="Nexmo is now known as Vonage" />
 
+|<p align="left">:exclamation: This SDK and Ruby gem have moved! It is now [`vonage`](https://rubygems.org/gems/vonage), located at [vonage/vonage-ruby-sdk](https://github.com/vonage/vonage-ruby-sdk). <br /><br /> We will support this repository for 12 months, ending October 2021, with any needed bug or security fixes for the last release of v7.2.0. New features will be released under `vonage`, so to take advantage of those please make sure to switch to `vonage` as soon as possible so you don't miss out!</p>   |
+|-----------------------------------------|
+
 This is the Ruby client library for Nexmo's API. To use it you'll
 need a Nexmo account. Sign up [for free at nexmo.com][signup].
 
