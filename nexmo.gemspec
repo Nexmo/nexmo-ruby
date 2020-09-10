@@ -21,11 +21,11 @@ Gem::Specification.new do |s|
     This Ruby gem has moved to `vonage`!
 
     We will support this last release of `nemo` through October 2021 with any needed bug fixes or security fixes.
-  
+
     New features will only be relased under the new `vonage` gem, so make sure to switch as soon as you can.
 
     To switch now, change your dependency in your `Gemfile` to `vonage` or run `gem install vonage` from the command line.
-    
+
     You can find more information on GitHub at https://github.com/Vonage/vonage-ruby-sdk.
   HEREDOC
   s.metadata = {
