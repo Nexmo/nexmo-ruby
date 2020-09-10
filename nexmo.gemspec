@@ -17,6 +17,17 @@ Gem::Specification.new do |s|
   s.add_dependency('sorbet-runtime', '~> 0.5')
   s.add_development_dependency('timecop', '~> 0.9')
   s.require_path = 'lib'
+  s.post_install_message = <<~HEREDOC
+    This Ruby gem has moved to `vonage`!
+
+    We will support this last release of `nexmo` through October 2021 with any needed bug fixes or security fixes.
+
+    New features will only be relased under the new `vonage` gem, so make sure to switch as soon as you can.
+
+    To switch now, change your dependency in your `Gemfile` to `vonage` or run `gem install vonage` from the command line.
+
+    You can find more information on GitHub at https://github.com/Vonage/vonage-ruby-sdk.
+  HEREDOC
   s.metadata = {
     'homepage' => 'https://github.com/Nexmo/nexmo-ruby',
     'source_code_uri' => 'https://github.com/Nexmo/nexmo-ruby',
