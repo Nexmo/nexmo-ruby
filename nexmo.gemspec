@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.post_install_message = <<~HEREDOC
     This Ruby gem has moved to `vonage`!
 
-    We will support this last release of `nemo` through October 2021 with any needed bug fixes or security fixes.
+    We will support this last release of `nexmo` through October 2021 with any needed bug fixes or security fixes.
 
     New features will only be relased under the new `vonage` gem, so make sure to switch as soon as you can.
 
